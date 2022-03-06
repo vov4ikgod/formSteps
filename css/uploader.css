@@ -31,10 +31,6 @@ body {
     gap: 40px;
 }
 
-.file-uploader-item {
-    
-}
-
 .file-uploader-item:first-child {
     flex: 0 0 auto;
 }
@@ -71,10 +67,6 @@ body {
     align-items: center;    
 }
 
-.file-item-img {
-
-}
-
 .file-item-text {
     font-weight: 500;
     font-size: 20px;
@@ -94,4 +86,24 @@ body {
 .profile-input > .input {
     width: 100%;
     display: flex;
+}
+
+
+
+
+
+
+
+@media (max-width: 350px) {
+
+    .file-uploader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .file-label {
+        width: 280px;
+        height: 280px;
+    }
+
 }

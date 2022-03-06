@@ -134,3 +134,37 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+
+
+@media (max-width: 350px) {
+
+    main {
+        padding: 10px;
+    }
+    
+    .step-number {
+        width: 40px;
+        height: 40px;
+        margin-right: 22px;
+    }
+
+    .steps-numbers {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .progress {
+        height: 2px;
+        width: 285px;
+    }
+
+    .file-label {
+        width: 10px;
+        height: 10px;
+    }
+
+}
