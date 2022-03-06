@@ -1,0 +1,63 @@
+* {
+    font-family: Montserrat;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --blue: #051655;
+    --light-blue: #F3F6F9;
+    --red: #EB3D35;
+    --grey: #747887;
+    --p: 20px;
+}
+
+
+
+
+
+
+
+/* header */
+ 
+header {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-bg {
+    width: auto;
+    height: 100%;
+}
+
+.info-item {
+    padding: 65px 100px;
+}
+
+.logo {
+    display: flex;
+    padding-bottom: 89px;
+}
+
+.header-btn {
+    margin-top: 40px;
+    padding: 18px 30px;
+}
+
+.link {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    font-weight: 375;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--grey);
+}
+
+.link a {
+    color: var(--red);
+}
